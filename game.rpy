@@ -1,3 +1,10 @@
+# Scarlet Mansion Library
+# A Game by fujiyama-volcano
+# Curated and designed by fujiyama-volcano
+# with additional support by sharksfan98
+# (c)2013 using MIT License
+# https://github.com/fujiyama-volcano/Scarlet-Mansion-Library
+
 # You can place the script of your game in this file.
 
 init python:
@@ -48,6 +55,16 @@ define y = Character ('Yukko',color="#00A86B")
 define speed = DynamicCharacter(passerby_boy)
 
     $ narrator = Character(None, window_left_padding=160)
+    
+scene black with dissolve
+
+show text "Chapter 1\nA Frightening Sight" with Pause(1.5)
+
+scene black with dissolve
+
+scene your_scene_title
+
+e "And now the story really begins."
 
                                      
     # The game starts here.
