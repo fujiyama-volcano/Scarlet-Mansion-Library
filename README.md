@@ -1,7 +1,7 @@
-Scarlet-Mansion-Library
+The Scarlet Mansion Library presents...
 =======================
+Return to Color ZERO, a really bad game
 
-SML Game
 
 Table of Contents
 =================
